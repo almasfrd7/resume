@@ -1,0 +1,30 @@
+1. Install Required Tools
+Download and install XAMPP and Visual Studio Code (VS Code).
+
+2. Extract the Website Files
+Extract the ZIP file containing the source code to a folder on your computer.
+Rename the folder to something simple, like mywebsite.
+
+3. Move the Website Files to XAMPP's Root Directory
+Navigate to the XAMPP installation folder (default is C:\xampp on Windows).
+Open the htdocs folder inside the XAMPP directory.
+Copy the mywebsite folder (from Step 2) into the htdocs folder.
+The path should now look like: C:\xampp\htdocs\mywebsite.
+
+4. Start the XAMPP Server
+Launch the XAMPP Control Panel.
+Start the Apache server by clicking the "Start" button next to it.
+Ensure the Apache server's status turns green.
+
+5. Access the Website in Your Browser
+Open your browser and go to: http://localhost/mywebsite
+
+6. Open the Project in Visual Studio Code
+Open VS Code.
+Click on File , Open Folder, and navigate to C:\xampp\htdocs\mywebsite.
+Select the folder to load it into VS Code to view the code.
+
+7. Refresh the Browser (If needed)
+
+Make sure your internet connection is active so linked resources (like styles or fonts from external CDNs) are loaded.
+Refresh the browser after making changes to see updates
